@@ -134,6 +134,7 @@ mod system_traits;
 mod system_name;
 mod system_param;
 mod system_registry;
+mod system_traits;
 
 use core::any::TypeId;
 
@@ -148,10 +149,11 @@ pub use input::*;
 pub use observer_system::*;
 pub use query::*;
 pub use schedule_system::*;
-pub use system_traits::*;
+pub use system::*;
 pub use system_name::*;
 pub use system_param::*;
 pub use system_registry::*;
+pub use system_traits::*;
 
 use crate::world::World;
 
